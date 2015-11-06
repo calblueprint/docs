@@ -64,136 +64,141 @@ To configure a proper staging and production environment for Rails applications,
 
 An example `development.rb` file might look something like this:
 
-	Rails.application.configure do
-		# Settings specified here will take precedence over those in config/application.rb.
-		# In the development environment your application's code is reloaded on
-		# every request. This slows down response time but is perfect for development
-		# since you don't have to restart the web server when you make code changes.
-		config.cache_classes = false
+```ruby
+Rails.application.configure do
+	# Settings specified here will take precedence over those in config/application.rb.
+	# In the development environment your application's code is reloaded on
+	# every request. This slows down response time but is perfect for development
+	# since you don't have to restart the web server when you make code changes.
+	config.cache_classes = false
 
-		# Do not eager load code on boot.
-		config.eager_load = false
+	# Do not eager load code on boot.
+	config.eager_load = false
 
-		 # Show full error reports and disable caching.
-		config.consider_all_requests_local = true
-		config.action_controller.perform_caching = false
-		# Don't care if the mailer can't send.
-		config.action_mailer.raise_delivery_errors = true
-		# Don't send emails in development
-		config.action_mailer.perform_deliveries = false
-		# Print deprecation notices to the Rails logger.
-		config.active_support.deprecation = :log
-		# Raise an error on page load if there are pending migrations.
-		config.active_record.migration_error = :page_load
+	 # Show full error reports and disable caching.
+	config.consider_all_requests_local = true
+	config.action_controller.perform_caching = false
+	# Don't care if the mailer can't send.
+	config.action_mailer.raise_delivery_errors = true
+	# Don't send emails in development
+	config.action_mailer.perform_deliveries = false
+	# Print deprecation notices to the Rails logger.
+	config.active_support.deprecation = :log
+	# Raise an error on page load if there are pending migrations.
+	config.active_record.migration_error = :page_load
 
-		# Debug mode disables concatenation and preprocessing of assets.
-		# This option may cause significant delays in view rendering with a large
-		# number of complex assets.
-		config.assets.debug = true
+	# Debug mode disables concatenation and preprocessing of assets.
+	# This option may cause significant delays in view rendering with a large
+	# number of complex assets.
+	config.assets.debug = true
 
-		# Adds additional error checking when serving assets at runtime.
-		# Checks for improperly declared sprockets dependencies.
-		# Raises helpful error messages.
-		config.assets.raise_runtime_errors = true
+	# Adds additional error checking when serving assets at runtime.
+	# Checks for improperly declared sprockets dependencies.
+	# Raises helpful error messages.
+	config.assets.raise_runtime_errors = true
 
-		# Raises error for missing translations
-		config.action_view.raise_on_missing_translations = true
+	# Raises error for missing translations
+	config.action_view.raise_on_missing_translations = true
 
-		config.action_mailer.default_url_options = { host: 'localhost:3000' }
-	end
-
+	config.action_mailer.default_url_options = { host: 'localhost:3000' }
+end
+```
 
 An example `staging.rb` file might look something like this:
 
-	require_relative "production"
+```ruby
+require_relative "production"
 
-	Mail.register_interceptor(
-	 RecipientInterceptor.new(ENV.fetch("EMAIL_RECIPIENTS"), subject_prefix:
-	"[STAGING]"))
-	Rails.application.configure do
-	 config.action_mailer.default_url_options = { host: "staging.example-app.com" }
-	end
+Mail.register_interceptor(
+ RecipientInterceptor.new(ENV.fetch("EMAIL_RECIPIENTS"), subject_prefix:
+"[STAGING]"))
+Rails.application.configure do
+ config.action_mailer.default_url_options = { host: "staging.example-app.com" }
+end
+```
 
 An example production.rb file might look something like this:
 
-	Rails.application.configure do
-	# Settings specified here will take precedence over those in config/application.rb.
+```ruby
+Rails.application.configure do
+# Settings specified here will take precedence over those in config/application.rb.
 
-		# SMTP SETTINGS
-		SMTP_SETTINGS = {
-			address: ENV.fetch("SMTP_ADDRESS"), # example: "smtp.sendgrid.net"
-			authentication: :plain,
-			domain: ENV.fetch("SMTP_DOMAIN"), # example: "this-app.com"
-			enable_starttls_auto: true,
-			password: ENV.fetch("SMTP_PASSWORD"),
-			port: "587",
-			user_name: ENV.fetch("SMTP_USERNAME")
-		}
+	# SMTP SETTINGS
+	SMTP_SETTINGS = {
+		address: ENV.fetch("SMTP_ADDRESS"), # example: "smtp.sendgrid.net"
+		authentication: :plain,
+		domain: ENV.fetch("SMTP_DOMAIN"), # example: "this-app.com"
+		enable_starttls_auto: true,
+		password: ENV.fetch("SMTP_PASSWORD"),
+		port: "587",
+		user_name: ENV.fetch("SMTP_USERNAME")
+	}
 
-		# Code is not reloaded between requests.
-		config.cache_classes = true
+	# Code is not reloaded between requests.
+	config.cache_classes = true
 
-		# Eager load code on boot. This eager loads most of Rails and
-		# your application in memory, allowing both threaded web servers
-		# and those relying on copy on write to perform better.
-		# Rake tasks automatically ignore this option for performance.
-		config.eager_load = true
+	# Eager load code on boot. This eager loads most of Rails and
+	# your application in memory, allowing both threaded web servers
+	# and those relying on copy on write to perform better.
+	# Rake tasks automatically ignore this option for performance.
+	config.eager_load = true
 
-		# Full error reports are disabled and caching is turned on.
-		config.consider_all_requests_local       = false
-		config.action_controller.perform_caching = true
+	# Full error reports are disabled and caching is turned on.
+	config.consider_all_requests_local       = false
+	config.action_controller.perform_caching = true
 
-		# Disable Rails’s static asset server (Apache or nginx will already do this).
-		config.serve_static_assets = false
+	# Disable Rails’s static asset server (Apache or nginx will already do this).
+	config.serve_static_assets = false
 
-		 # Enable deflate / gzip compression of controller-generated responses
-		config.middleware.use Rack::Deflater
+	 # Enable deflate / gzip compression of controller-generated responses
+	config.middleware.use Rack::Deflater
 
-		 # Compress JavaScripts and CSS.
-		config.assets.js_compressor = :uglifier
+	 # Compress JavaScripts and CSS.
+	config.assets.js_compressor = :uglifier
 
-		# Do not fallback to assets pipeline if a precompiled asset is missed.
-		config.assets.compile = false
+	# Do not fallback to assets pipeline if a precompiled asset is missed.
+	config.assets.compile = false
 
-		# Generate digests for assets URLs.
-		config.assets.digest = true
+	# Generate digests for assets URLs.
+	config.assets.digest = true
 
-		# `config.assets.precompile` and `config.assets.version` have moved to 
-		# config/initializers/assets.rb
+	# `config.assets.precompile` and `config.assets.version` have moved to
+	# config/initializers/assets.rb
 
-		# Specifies the header that your server uses for sending files.
-		# config.action_dispatch.x_sendfile_header = "X-Sendfile" # for apache
-		# config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect' # for nginx
+	# Specifies the header that your server uses for sending files.
+	# config.action_dispatch.x_sendfile_header = "X-Sendfile" # for apache
+	# config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect' # for nginx
 
-		# Force all access to the app over SSL, use Strict-Transport-Security, and 
-		# use secure cookies.
-		# config.force_ssl = true
+	# Force all access to the app over SSL, use Strict-Transport-Security, and
+	# use secure cookies.
+	# config.force_ssl = true
 
-		# Set to :debug to see everything in the log.
-		config.log_level = :info
+	# Set to :debug to see everything in the log.
+	config.log_level = :info
 
-		# Ignore bad email addresses and do not raise email delivery errors.
-		# Set this to true and configure the email server for immediate delivery 
-		# to raise delivery errors.
-		config.action_mailer.delivery_method = :smtp
-		config.action_mailer.smtp_settings = SMTP_SETTINGS
+	# Ignore bad email addresses and do not raise email delivery errors.
+	# Set this to true and configure the email server for immediate delivery
+	# to raise delivery errors.
+	config.action_mailer.delivery_method = :smtp
+	config.action_mailer.smtp_settings = SMTP_SETTINGS
 
-		# Enable locale fallbacks for I18n (makes lookups for any locale fall-back to
-		# the I18n.default_locale when a translation cannot be found).
-		config.i18n.fallbacks = true
+	# Enable locale fallbacks for I18n (makes lookups for any locale fall-back to
+	# the I18n.default_locale when a translation cannot be found).
+	config.i18n.fallbacks = true
 
-		# Send deprecation notices to registered listeners.
-		config.active_support.deprecation = :notify
+	# Send deprecation notices to registered listeners.
+	config.active_support.deprecation = :notify
 
-		# Use default logging formatter so that PID and timestamp are not suppressed.
-		config.log_formatter = ::Logger::Formatter.new
+	# Use default logging formatter so that PID and timestamp are not suppressed.
+	config.log_formatter = ::Logger::Formatter.new
 
-		# Do not dump schema after migrations.
-		config.active_record.dump_schema_after_migration = false
+	# Do not dump schema after migrations.
+	config.active_record.dump_schema_after_migration = false
 
-		# Set host to production heroku app
-		config.action_mailer.default_url_options = { host: "ros-production.herokuapp.com" }
-	end
+	# Set host to production heroku app
+	config.action_mailer.default_url_options = { host: "ros-production.herokuapp.com" }
+end
+```
 
 These files are all from Blueprint’s Roots of Success Rails application (included in the list of helpful links below!)
 

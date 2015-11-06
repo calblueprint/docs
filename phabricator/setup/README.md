@@ -1,4 +1,4 @@
-Phabricator Guide
+Phabricator Setup
 ====
 Phabricator is a platform for code review, much like GitHub Pull Requests. Phabricator, however, has a much more extensive and intuitive feature set. We'll be replacing Pull Requests with Phabricator Diffs!
 
