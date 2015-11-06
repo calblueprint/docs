@@ -123,9 +123,7 @@ Go to [phab.calblueprint.org](http://phab.calblueprint.org) and authenticate wit
 
 ### Step 2: Add an `.arcconfig` file to your project's repo.
 (This part assumes you already have a GitHub repo.)
-Either copy the file in this repo into the root directory of your project's repo, or make a new blank `.arcconfig` file pointing to our Phab.
-
-For convenience, we've pasted it here as well:
+Make a new `.arcconfig` file in the root of your repo that points to our Phab.
 
 	{
 	  "phabricator.uri": "http://phab.calblueprint.org",
