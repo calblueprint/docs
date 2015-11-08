@@ -129,7 +129,7 @@ Make a new `.arcconfig` file in the root of your repo that points to our Phab.
 	  "phabricator.uri": "http://phab.calblueprint.org",
 	  "history.immutable": false,
 	  "load": [
-	    "$TRAPHIC_PATH"
+	    "$TRAPHIC_PATH/traphic"
 	  ],
 	  "arcanist_configuration": "TraphicConfiguration"
 	}
