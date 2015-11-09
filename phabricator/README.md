@@ -49,7 +49,7 @@ See the Phabricator authors' workflow for more in-depth, detailed info [here](ht
 	$ arc vdiff
 
 	<edit based on review feedback>
-	$ git commit --amend
+	$ git commit --amend --no-edit
 	$ arc vdiff
 
 	<maybe run git pull if you want some updates>
@@ -59,7 +59,7 @@ See the Phabricator authors' workflow for more in-depth, detailed info [here](ht
 
 ### Frequently Asked Questions (FAQ)
 
-1. **Why do I even want to use Phabricator? Github pull requests and issues provides all the functionality I need.**
+1.  <a name="faq-1"></a>**Why do I even want to use Phabricator? Github pull requests and issues provides all the functionality I need.**
 
 	Though Phabricator doesn’t offer any essential new functionality, we encourage switching over for 4 main reasons:
 
@@ -70,24 +70,24 @@ See the Phabricator authors' workflow for more in-depth, detailed info [here](ht
 	- Phabricator’s code review UI is quite sexy
 	- Phabricator supports dank memes
 
-2. **Why am I being prevented from committing to master?**
+2. <a name="faq-2"></a>**Why am I being prevented from committing to master?**
 
 	We want **all** of our changes to go through some sort of code review. Even if seems like a ridiculously trivial change, it's often better to get a better set of eyes on
 	your code instead of commiting directly to master. We included the pre-commit check since even if you're always trying to work on feature branches, it's possible to
 	momentarily forget what branch you're on.
 
-3. **Why can't I commit with my own custom message?**
+3. <a name="faq-3"></a>**Why can't I commit with my own custom message?**
 
 	It's always nice to be able to get a general sense of what changes a specific commit introduced when looking at the message. This property is extremely useful in large
 	codebases for debugging and general traversal purposes. Our suggested workflows include a detailed commit template and ameding commits which should make it a little
 	easier. Though it might surprise you, an outsider won't learn a lot from reading a commit message like `oh shit it works!!1!`
 
-4. **I edited an existing diff, but arcanist's template assumes I'm creating a new diff. How do I fix this?**
+4. <a name="faq-4"></a>**I edited an existing diff, but arcanist's template assumes I'm creating a new diff. How do I fix this?**
 
 	Sometimes arcanist gets a little bit confused (seems to happen more often with amending commits), but luckily there's a very easy solution. Simply find you differential
 	number (should be a capital 'D' followed by a number) and run `arc diff --update D{rev_number}`. This should bring up the correct template that updates a diff.
 
-5. **Why do I want to amend my commits instead of creating a new one?**
+5. <a name="faq-5"></a>**Why do I want to amend my commits instead of creating a new one?**
 
 	The rationale here is similar to question 3 above, but `amend` ensures that all of the changes associated with a diff are encapsulated in single commit.
 	Additionally, amending commits traditionally leads to a cleaner commit history. If you accidentally made additional commits but want your final push to only have
