@@ -7,7 +7,7 @@ Phabricator is a platform for code review, much like GitHub Pull Requests. Phabr
 2. [PL/Project Setup](#pl-setup)
 3. [Appendix](#appendix)
 
-External: [Developer Workflow](https://github.com/calblueprint/docs/tree/master/phab)
+External: [Developer Workflow](http://git.io/phab-at-bp)
 
 <a name="dev-setup"></a>Developer Setup
 ----
