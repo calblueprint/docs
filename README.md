@@ -19,4 +19,4 @@ A world where the good, passionate, and visionary have the biggest impact on our
 4. **Innovate**: We as Blueprint members recognize that change is both inevitable and necessary. We are committed to innovate and emphasize effective solutions as needed to remain relevant - nothing is sacred. We welcome new ideas and diverse thinking.
 5. **Stay Humble**: We as Blueprint members dedicate outselves to volunteering for the sake of doing good. In the face of success, we maintain humility - we recycle our pride to fuel our constant pursuit of our mission. We remember that social good is for anyone and everyone, not just Blueprint.
 
-![BP Banner](https://raw.githubusercontent.com/calblueprint/calblueprint.org.old/master/app/assets/images/banner-facebook.png)
+![BP Banner](https://cloud.githubusercontent.com/assets/2468904/11998649/8a12f970-aa5d-11e5-8dab-7eef0766c793.png)
