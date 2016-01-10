@@ -3,21 +3,21 @@ The Project Leader Handbook
 
 ### Contents
 
-- Introduction
-    - What this doc is and isn't
-- The guidelines of project leading
-- Preparation
-    - Understanding the nonprofit
-    - Creating a project vision
-- The first team meeting
-    - Establishing culture
-    - Setting expectations
-- Getting the most out of meetings
-    - Team meetings
-    - Nonprofit meetings
-    - Project leader + E-Team meetings
-- What to do when things go wrong
-- Closing words
+- [Introduction](#introduction)
+    - [What this doc is and isn't](#what-this-doc-is-and-isnt)
+- [The guidelines of project leading](#the-guidelines-of-project-leading)
+- [Preparation](#preparation)
+    - [Understanding the nonprofit](#understanding-the-nonprofit)
+    - [Creating a project vision](#creating-a-project-vision)
+- [The first team meeting](#the-first-team-meeting)
+    - [Establishing culture](#establishing-culture)
+    - [Setting expectations](#setting-expectations)
+- [Getting the most out of meetings](#getting-the-most-out-of-meetings)
+    - [Team meetings](#team-meetings)
+    - [Nonprofit meetings](#nonprofit-meetings)
+    - [Project leader + E-Team meetings](#project-leader--e-team-meetings)
+- [What to do when things go wrong](#what-to-do-when-things-go-wrong)
+- [Closing words](#closing-words)
 
 ## Introduction
 
