@@ -8,7 +8,7 @@ The Project Leader Handbook
 - [The guidelines of project leading](#the-guidelines-of-project-leading)
 - [Preparation](#preparation)
     - [Understanding the nonprofit](#understanding-the-nonprofit)
-    - [Creating a project vision](#creating-a-project-vision)
+    - [Creating a vision for your team](#creating-a-vision-for-your-team)
 - [The first team meeting](#the-first-team-meeting)
     - [Establishing culture](#establishing-culture)
     - [Setting expectations](#setting-expectations)
@@ -66,8 +66,8 @@ earlier you get users, the less time you'll spend building things that don't
 matter.
 
 **Be focused.** Pin down precisely the one or two pain points for the nonprofit
-that your project will do better than what they currently use. Refuse to do
-anything else until these are finished. See
+that your project will do vastly better than what they currently use. Refuse to
+do anything else until these are finished. See
 [The Product Death Cycle][product-death-cycle].
 
 **Fail fast.** The worst thing you can do for yourself and your team is to try
@@ -77,11 +77,10 @@ expectations of work? Is your nonprofit not engaged with the project? As the
 project leader, you must be able to spot and admit to failure. Only then can you
 start working towards improvement.
 
-**Over-communicate.** You aren't communicating enough if you aren't
-over-communicating. This means knowing what's up with your team and your
-nonprofit all the time, which means you should allocate time accordingly. See
-[Seven Plus or Minus Three][seven-plus-minus-three] and
-[Bored People Quit][bored-people-quit].
+**Over-communicate.** You aren't communicating enough if you aren't over-
+communicating. This means knowing the state of your team and your nonprofit all
+the time; this means you should allocate time accordingly. See [Seven Plus or
+Minus Three][seven-plus-minus-three] and [Bored People Quit][bored-people-quit].
 
 [product-death-cycle]: http://andrewchen.co/this-is-the-product-death-cycle-why-it-happens-and-how-to-break-out-of-it/
 [seven-plus-minus-three]: http://randsinrepose.com/archives/seven-plus-or-minus-three/
@@ -94,7 +93,44 @@ principles into practice. Keep these guidelines in mind as you read on.
 
 #### Understanding the nonprofit
 
-#### Creating a project vision
+It goes without saying that understanding the nonprofit is a prerequisite for
+project success. Here are specific questions you should have a clear answer to
+as the project begins.
+
+- What is the nonprofit's mission?
+- What is keeping them from fulfilling it? What are the top one/two biggest
+  roadblocks?
+- How will your project solve these problems?
+
+For example, here are the answers to these questions for the [Berkeley Public
+Schools Fund][bpsf] project:
+
+- The Berkeley Public Schools Fund raises and distributes funding to schools and
+  teachers in the Berkeley Unified Schools District.
+- BPSF does not have enough money for all the projects teachers want to do.
+  Community members are willing to donate but find the existing system difficult
+  to navigate.
+- By making it easy for people to donate to specific teachers' projects, we can
+  increase the overall amount of funding in the district.
+
+[bpsf]: https://schoolsfund-friendsandfamily.herokuapp.com/
+
+Your answers should be similarly pointed and succinct. Stop now and think about
+/ write down your responses to these questions.
+
+Expect your answers to change over time, but you should be able to easily answer
+these questions at any point in time during the project. Trust your gut; get in
+contact with your nonprofit earlier rather than later, even if you just had a
+meeting. This is important to get right.
+
+#### Creating a vision for your team
+
+<!-- As the project leader, you also have the responsibility of leading a team. This
+is always harder than PLs expect because many don't see the behind-the-scenes
+work.
+
+Project leading comes with many worries. Fortunately, others have worried about
+many of the same things before.  -->
 
 ## The first team meeting
 
