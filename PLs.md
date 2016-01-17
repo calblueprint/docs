@@ -8,7 +8,7 @@ The Project Leader Handbook
 - [The guidelines of project leading](#the-guidelines-of-project-leading)
 - [Preparation](#preparation)
     - [Understanding the nonprofit](#understanding-the-nonprofit)
-    - [Creating a vision for your team](#creating-a-vision-for-your-team)
+    - [Preparing to lead a team](#preparing-to-lead-a-team)
 - [The first team meeting](#the-first-team-meeting)
     - [Establishing culture](#establishing-culture)
     - [Setting expectations](#setting-expectations)
@@ -43,8 +43,8 @@ relevant or useful? Remove it. The handbook isn't the One True Answer to project
 leading. Rather, it's a foundation that you can use to make your project and
 your team more successful and happy.
 
-This handbook is focused. If you'd like to add an idea, first ask: Can PLs
-succeed without this idea? If the answer is yes, think twice about adding it.
+This handbook is focused. We avoid minute details in favor of more general
+principles.
 
 This is an interactive document. We'll ask you at some points to stop reading
 and think or write things down. This means you should actually stop and think!
@@ -61,7 +61,7 @@ These are the most important characteristics of successful projects and teams.
 If you remember nothing else, remember these.
 
 **Get users.** It's easy to spot a project on a trajectory for success: it has
-users. It's that simple. Give people unfinished work if they can use it. The
+users. It's that simple. Pilot unfinished work if people can use it. The
 earlier you get users, the less time you'll spend building things that don't
 matter.
 
@@ -79,8 +79,9 @@ start working towards improvement.
 
 **Over-communicate.** You aren't communicating enough if you aren't over-
 communicating. This means knowing the state of your team and your nonprofit all
-the time; this means you should allocate time accordingly. See [Seven Plus or
-Minus Three][seven-plus-minus-three] and [Bored People Quit][bored-people-quit].
+the time; this means you should allocate time specifically for this. See
+[Seven Plus or Minus Three][seven-plus-minus-three] and [Bored People
+Quit][bored-people-quit].
 
 [product-death-cycle]: http://andrewchen.co/this-is-the-product-death-cycle-why-it-happens-and-how-to-break-out-of-it/
 [seven-plus-minus-three]: http://randsinrepose.com/archives/seven-plus-or-minus-three/
@@ -123,14 +124,33 @@ these questions at any point in time during the project. Trust your gut; get in
 contact with your nonprofit earlier rather than later, even if you just had a
 meeting. This is important to get right.
 
-#### Creating a vision for your team
+#### Preparing to lead a team
 
-<!-- As the project leader, you also have the responsibility of leading a team. This
-is always harder than PLs expect because many don't see the behind-the-scenes
-work.
+TODO(sam): Make this section better...
 
-Project leading comes with many worries. Fortunately, others have worried about
-many of the same things before.  -->
+The first thing you should know is that it's okay to worry.
+
+The goal is to remain focused on your overall vision rather than fighting fires.
+The most common scenario is Blueprint is that the project leader fights fires
+all the time while everyone else is unaware. This unfortunate result comes from
+seeing everyone else supposedly doing well and wanting to appear like you have
+no problems either, leading to further isolation.
+
+We can approach this issue in two ways.
+
+First, we emphasize honest communication. This is everyone's responsibility.
+E-Team and project mentors should create space for PLs to share openly. As a
+little example, during the project leaders meeting E-Team can ask, "What has
+been the biggest struggle in leading your team this week?". PLs should be
+actively identifying and prioritizing problems before they have time to grow.
+
+Second, we can anticipate problems and design around them. For example, teams
+tend to slow down around midterm season and we can take that into account when
+creating a timeline for the project.
+
+[reactive-proactive-management]: https://www.mindtools.com/pages/article/reactive-proactive-management.htm
+[fighting-fires]: https://hbr.org/2000/07/stop-fighting-fires
+
 
 ## The first team meeting
 
