@@ -291,6 +291,38 @@ Here are some ideas for agenda items:
 
 #### Project leader + E-Team meetings
 
+Again, these meetings are vary valuable if you come prepared. If not, they
+quickly turn into:
+
+> How are your projects going? Good? Good.
+
+Some better uses for these meetings:
+
+- Asking for advice.
+
+    > I'm having trouble getting Sam to step up to the work I need him to do.
+    Any suggestions?
+
+    > I overestimated the technical background of my members. I want to spend a
+    week just going through a Rails tutorial together. Does that sound
+    reasonable?
+
+    > My nonprofit wants to add features X, Y, and Z. I said yes because I
+    didn't really think it through at the time. What's a good way to talk to
+    them about it?
+
+    > I'm having a lot of trouble finding a time that we can all meet together.
+    What can I do?
+
+- Talking about what worked and what didn't.
+
+    > All my members were able to make it to my last NPO meeting and I think it
+    really helped our team focus!
+
+    > I tried to do pair programming this week in my team meeting and it didn't
+    really work out because we ran out of time. Maybe next time I'll try doing
+    it during a work session instead.
+
 ## What to do when things go wrong
 
 ## Closing words
