@@ -325,4 +325,18 @@ Some better uses for these meetings:
 
 ## What to do when things go wrong
 
+TODO(sam): Write this section.
+
 ## Closing words
+
+We shouldn't end the handbook just talking about problems.
+
+Project leading is super fulfilling because you have a chance to bond with a
+team of amazing individuals and lead a project that has serious impact on our
+nonprofits.
+
+This handbook is not very extensive. It is meant to provide a baseline so that
+you can add your own style to your leading.
+
+Trust your gut, even if it means not doing things the "right way". Above all,
+have fun!
