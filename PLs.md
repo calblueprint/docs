@@ -212,7 +212,7 @@ some things you can try instead.
 
 - Reiterating a short-term or a long-term goal.
 
-    > We want to show PHC this specific feature next week. Since that's soon, it
+    > We want to show PHC feature A next week. Since that's soon, it
     doesn't have to be perfect. We'll focus on getting things working.
 
 - Discussing the state of the project.
@@ -232,10 +232,62 @@ some things you can try instead.
     to use it, so this meeting we'll think of the best bang-for-the-buck UI
     improvements and work on those through next week.
 
+- Team feedback. Typically having them write it is better than a group
+  discussion because of [groupthink][groupthink].
+
+    > What did you guys think of the amount of work you had to do this month?
+    Send me a Slack message with your thoughts and I'll talk about the
+    group's results next time.
+
+[groupthink]: https://en.wikipedia.org/wiki/Groupthink
+
 You get the idea. Your goal at each team meeting is to get everyone on the same
 page and refocus the team.
 
 #### Nonprofit meetings
+
+Similarly, you want to avoid these kinds of nonprofit meetings:
+
+> Hello, this week we finished features A and B. How do they look? Good? What
+else would you like? Okay, we'll get working on them right away.
+
+Sometimes you'll have a meeting like this and that's fine. But do this every
+time and your project will start to lose its vision.
+
+For nonprofit meetings, it's good to come up with at least a rough agenda. It
+could just be a list of items you scribble down somewhere. The important part is
+to know what you want to walk away from the meeting with.
+
+Here are some ideas for agenda items:
+
+- Reestablish context.
+
+    > To be on the same page, we are working on feature A because this feature
+    will allow teachers to manage their classroom. This is needed so that later
+    we can implement feature B (eg. email notifications for students).
+
+- Communicate the team status.
+
+    > In about a month's time, my team will be in midterm season so work will
+    slow down quite a bit. To anticipate this, we'll work on finishing feature Y
+    in two weeks so that during that time we can collect feedback from you on
+    it.
+
+- Discuss focus.
+
+    > In order to complete the feature you're suggesting, we will have to move
+    team members away from features B and C. Which will provide the biggest
+    benefit to you?
+
+- Discuss features in context. This is a bit different from just talking about
+  features.
+
+    > We discussed last time that we could pilot the app in a month. Here's the
+    progress we have so far.
+
+    > Realistically, I estimate that we will be able to finish features X and Y
+    by the time of the pilot. I still want to go through with the pilot to get
+    feedback, so we'll think of a workaround for feature Z.
 
 #### Project leader + E-Team meetings
 
