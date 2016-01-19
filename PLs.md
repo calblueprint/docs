@@ -181,7 +181,7 @@ You should look to go over these things (listed in no particular order):
 ## Getting the most out of meetings
 
 You will be meeting with a number of different parties quite frequently as a
-project lead. Meeting are notorious for being tiresome and unhelpful, but they
+project lead. Meetings are notorious for being tiresome and unhelpful, but they
 don't have to be.
 
 The easiest way to improve the quality of your meetings is preparation.
